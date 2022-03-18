@@ -87,7 +87,7 @@
                   <button class="btn btn-lg btn-primary submit-btn" type="submit">Login</button>
                 </div>
                 <div class="wrapper mt-5 text-gray">
-                  <p class="footer-text">Copyright © <?= date('Y') ?> IT Shop Purwokerto. All rights reserved.</p>
+                  <p class="footer-text">Copyright © <?= date('Y') ?> Aslan Akuba | 21815211. All rights reserved.</p>
                   <ul class="auth-footer text-gray">
                     <li>
                       <a href="#">Terms & Conditions</a>

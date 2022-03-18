@@ -221,8 +221,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <form class="ml-auto search-form d-md-none d-lg-none d-xl-none d-sm-block mb-3" method="get" action="<?php echo site_url('/home/search'); ?>">
                         <div class="input-group">
                             <input name="katakunci" class="form-control" type="search" placeholder="nomor arsip/kata kunci uraian" aria-label="Search">
-                            <div cl
-                            ass="input-group-append">
+                            <div class="input-group-append">
                                 <button class="btn btn-primary" type="submit">
                                     <i class="fa fa-search"></i>
                                 </button>

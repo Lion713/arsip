@@ -7,13 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			<h3 class="page-title">Data Arsip</h3>
 			<div class="quick-link-wrapper d-md-flex flex-md-wrap">
 				<div class="quick-links">
-					<!--Spekol Start -->
-					<?php if (isset($_SESSION['akses_modul']['entridata']) && $_SESSION['akses_modul']['entridata'] == 'on') {
-					echo "<a class='btn btn-primary' href='";?>
-					<?php echo site_url('/admin/vedit/' . encrypt_url($id)); ?>
-					<?php echo "'>"; ?>
-					<?php echo "<i class='fa fa-pencil'></i> Data Arsip</a>"; }?>
-					<!-- Spekol END -->
+					<a class="btn btn-primary" href="<?php echo site_url('/admin/vedit/' . encrypt_url($id)); ?>"><i class="fa fa-pencil"></i> Edit Arsip</a>
 				</div>
 			</div>
 		</div>

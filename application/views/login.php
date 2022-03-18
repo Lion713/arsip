@@ -21,7 +21,7 @@
   <!-- inject:css -->
   <script src="<?php echo base_url('/assets/staradmin/src/assets/vendors/sweetalert2/sweetalert2.all.min.js') ?>"></script>
   <!-- endinject -->
-  <link href="<?php echo base_url('/public/logo1.png') ?>" rel="icon" type="image/x-icon" />
+  <link href="<?php echo base_url('/public/logo.png') ?>" rel="icon" type="image/x-icon" />
   <style>
     .form-control {
       font-size: .875em;
@@ -84,10 +84,10 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <button class="btn btn-lg btn-primary submit-btn" type="submit">Masuk</button>
+                  <button class="btn btn-lg btn-primary submit-btn" type="submit">Login</button>
                 </div>
                 <div class="wrapper mt-5 text-gray">
-                  <p class="footer-text">Copyright © <?= date('Y') ?> Aslan Akuba | 21815211 <i>All rights reserved.</i></p>
+                  <p class="footer-text">Copyright © <?= date('Y') ?> IT Shop Purwokerto. All rights reserved.</p>
                   <ul class="auth-footer text-gray">
                     <li>
                       <a href="#">Terms & Conditions</a>

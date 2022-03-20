@@ -125,7 +125,7 @@ class Admin extends CI_Controller
         $jumlah = $this->__sanitizeString($this->input->post('jumlah'));
         $file = "";
         $config['upload_path'] = 'files/';
-        $config['allowed_types'] = 'pdf|docx|doc|xlsx|xls|pptx|ppt|jpeg|jpg|png|bmp|tiff|gif|svg|zip|rar|7zip|tar|gtar|gzip|apk|psd|eps|cdr|ai';
+        $config['allowed_types'] = 'pdf|docx|doc|xlsx|xls|pptx|ppt|jpeg|jpg|png';
         $this->load->library('upload', $config);
         if ($this->upload->do_upload('file')) {
             $datafile = $this->upload->data();

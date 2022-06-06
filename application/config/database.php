@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -72,12 +72,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
- 
+
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'goronta3_admin',
-	'password' => 'ForestisRest3303',
+	'password' => '+^6ZB=q7GXa1',
 	'database' => 'goronta3_arsip',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
